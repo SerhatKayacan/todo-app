@@ -1,3 +1,10 @@
+login page => kullanıcı adı:user, şifre:dummy
+
+open demo with eclipse and run /demo/src/main/java/com/example/demo/DemoApplication.java for starting server
+
+run "npm install" to install react dependicies
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
