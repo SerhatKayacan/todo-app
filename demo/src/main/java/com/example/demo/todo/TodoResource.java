@@ -29,7 +29,7 @@ public class TodoResource {
 	//(usename değişken, onu parametre olarak kullanabiliriz ama kullanmıyoruz tüm todoları dönüyoruz)
 	@GetMapping("/users/{username}/todos")
 	public List<Todo> getAllTodos(@PathVariable String username){
-		return todoService.findAll(); // return all todos
+		return todoService.findAll(); // return all todos (list of objects)
 	}
 	
 	@GetMapping("/users/{username}/todos/{id}")
